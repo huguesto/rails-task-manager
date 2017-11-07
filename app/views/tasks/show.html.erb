@@ -1,0 +1,8 @@
+<!-- display task details (content date creation) + back link to index page -->
+Ceci est la show.
+
+  <h2><%= @task.name %></h2>
+  <p><%= @task.description %></p>
+  <p><%= @task.done %></p>
+
+<%= link_to "Go to the list tasks", tasks_path %>
